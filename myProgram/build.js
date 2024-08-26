@@ -3,6 +3,7 @@ const config = require('./webpack.config')
 
 // 执行 webpack 函数有传回调函数
 webpack(config, (err, stats) => {
+    console.log(111)
   if (err) {
     console.log(err)
   }

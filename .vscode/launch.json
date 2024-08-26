@@ -7,7 +7,16 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "启动程序",
+            "name": "调试名1",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/myProgram/build.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "调试名2",
             "skipFiles": [
                 "<node_internals>/**"
             ],
