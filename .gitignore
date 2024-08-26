@@ -10,7 +10,6 @@ selenium-debug.log
 %APPDATA%/
 .idea/
 debug.log
-.vscode
 .idea
 .editorconfig
 config/routerCutLoaderOpt.tpl.js
