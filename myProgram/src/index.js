@@ -1,3 +1,6 @@
-import { sum } from './utils/math'
 
-console.log(sum(20, 30))
+setTimeout(() => {
+    import('./utils/math').then((d) => {
+        console.log(d);
+    })
+}, 3000)
